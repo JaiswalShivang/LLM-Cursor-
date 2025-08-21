@@ -1,0 +1,21 @@
+{
+  "name": "gen-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node LLM.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "child_process": "^1.0.2",
+    "node-fetch": "^3.3.2",
+    "os": "^0.1.2",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
+  }
+}
